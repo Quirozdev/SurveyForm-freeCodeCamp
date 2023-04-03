@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Programming Survey Form</h1>
+    <p id="description">Let us know your favourite programming languages</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
+        <label id="number-label" for="number">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label" for="dropdown">Favourite programming language
+          <select id="dropdown">
+            <option value="">Select programming language</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <p>Which area of software engineering you enjoy the most?</p>
+      <label for="web"><input id="web" name="area" type="radio" value="web" /> Web development</label>
+      <label for="mobile"><input id="mobile" name="area" type="radio" value="mobile" /> Mobile apps</label>
+      <label for="desktop"><input id="desktop" name="area" type="radio" value="desktop" /> Desktop apps</label>
+      <label for="videogames"><input id="videogames" name="area" type="radio" value="videogames" /> Videogames</label>
+      <p>Which programming languages you want to learn this year?</p>
+      <label for="java"><input id="java" name="java" type="checkbox" value="java" /> Java</label>
+      <label for="python"><input id="python" name="python" type="checkbox" value="python" /> Python</label>
+      <label for="javascript"><input id="javascript" name="javascript" type="checkbox" value="javascript" /> JavaScript</label>
+      <label for="c"><input id="c" name="c" type="checkbox" value="c" /> C</label>
+      <label for="rust"><input id="rust" name="rust" type="checkbox" value="rust" /> Rust</label>
+     </fieldset>
+     <fieldset>
+      <label for="suggestions"> Any suggestions for this survey?
+        <textarea id="suggestions" rows="4" cols="40"></textarea>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

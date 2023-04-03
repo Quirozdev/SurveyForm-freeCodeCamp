@@ -1,0 +1,52 @@
+body {
+    font-family: 'Fantasy';
+    color: #ffffff;
+    background-color: #162a;
+    font-size: 20px;
+  }
+  
+  h1, #description {
+    text-align: center;
+    color: #114930;
+  }
+  
+  form {
+    margin: 0 auto;
+    background-color: #114930;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1.1rem 2rem;
+  }
+  
+  input, select {
+    height: 1.7rem;
+    border: 1px solid #2b54f2;
+    vertical-align: middle;
+  }
+  
+  select {
+    padding: 1px 2px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select {
+    width: 100%;
+  }
+  
+  label {
+    width: 100%;
+    display: block;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1.2rem auto;
+    border: 1px solid #ab1212;
+    background-color: #a1f169;
+  }
+  
+  #suggestions {
+    display: block;
+    margin: 1rem auto;
+  }
